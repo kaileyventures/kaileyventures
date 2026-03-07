@@ -11,8 +11,9 @@ export default function ContactSection() {
             <span className="text-[0.65rem] font-bold tracking-[0.3em] uppercase text-[#7F7F7F] mb-4">
               Holding Portfolio // Comms
             </span>
-            <h1 className="text-5xl md:text-7xl lg:text-[6rem] font-black tracking-tighter uppercase text-[#0A0A0A] leading-none">
-              Direct <br /> Channels
+            <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-black tracking-[-0.04em] uppercase leading-[0.9] text-[#0A0A0A]">
+              Direct <br /> 
+              <span className="text-black/20">Channels</span>
             </h1>
           </div>
           
@@ -36,7 +37,7 @@ export default function ContactSection() {
           {/* Action 2: WHATSAPP */}
           <div className="group flex flex-col p-8 md:p-10 bg-[#FAFAFA] border border-black/5 hover:border-[#25D366]/40 hover:bg-white transition-all duration-500">
             <span className="text-[0.65rem] font-bold tracking-[0.2em] text-[#7F7F7F] uppercase mb-12 group-hover:text-[#25D366] transition-colors">Secure Text</span>
-            <h3 className="text-3xl lg:text-4xl font-black tracking-tighter uppercase text-[#0A0A0A] mb-4">WhatsApp</h3>
+            <h3 className="text-3xl lg:text-4xl font-black tracking-tighter uppercase text-[#0A0A0A] mb-4 group-hover:text-[#25D366]">WhatsApp</h3>
             <p className="text-sm text-[#7F7F7F] leading-relaxed mb-12">Direct text-based protocol for fast queries and document sharing.</p>
             <a href="https://wa.me/919815012623" target="_blank" rel="noopener noreferrer" className="mt-auto inline-flex items-center gap-3 text-xs font-bold tracking-[0.2em] text-[#0A0A0A] uppercase group-hover:text-[#25D366] group-hover:gap-5 transition-all">
               Message Now <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
