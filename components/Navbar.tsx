@@ -28,7 +28,7 @@ export default function Navbar() {
           <nav className="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide uppercase text-[#7F7F7F]">
             <Link href="#about" className="hover:text-black transition-colors duration-300">About</Link>
             <Link href="#brands" className="hover:text-black transition-colors duration-300">Our Brands</Link>
-            <Link href="#contact" className="hover:text-black transition-colors duration-300">Contact</Link>
+            <Link href="/contact" className="hover:text-black transition-colors duration-300">Contact</Link>
           </nav>
         
           <button 
