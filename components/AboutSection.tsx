@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section id="about" className="relative z-10 py-32 md:py-56 bg-[#FAFAFA] border-t border-black/5 overflow-hidden">
+    <section id="about" className="relative z-10 py-32 md:py-30 bg-[#FAFAFA] border-t border-black/5 overflow-hidden">
       {/* Decorative Background Number */}
       <div className="absolute -top-10 -right-10 text-[20rem] font-black text-black/[0.02] pointer-events-none select-none leading-none tracking-tighter">
         01
