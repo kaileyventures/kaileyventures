@@ -103,7 +103,7 @@ export default function BrandsSection() {
                   </h3>
                   
                   {/* Description */}
-                  <p className="relative z-10 text-base md:text-xl text-[#555] font-medium leading-[1.6] mb-12 md:mb-16 max-w-lg">
+                  <p className="relative z-10 text-base md:text-xl text-[#7F7F7F] font-medium leading-[1.6] mb-12 md:mb-16 max-w-lg">
                     {brand.description}
                   </p>
                   
